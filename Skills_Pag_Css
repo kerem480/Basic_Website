@@ -1,0 +1,135 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.wallpapersafari.com/57/37/HQ2JDv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icons{
+    margin:auto;
+}
+.icons img:hover::before{
+    width: 95%;
+}
+.icons img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.images{
+    float:left;
+    margin: 20px 60px;
+}
+.icons p{
+    padding-top: 4%;
+    font-size: 25px;
+    padding-left: 12%; 
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin: 5px;
+}
+.skill{
+   width: 500px;
+   margin: 60px auto;
+   color: #fff;
+   padding: 20px;
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.22);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 80%;
+    animation: css 3s;
+}
+.qt-designer{
+    width: 60%;
+    animation: qt-designer 3s;
+}
+.python{
+    width: 70%;
+    animation: python 3s;
+}
+.R{
+    width: 40%;
+    animation: R 3s;
+}
+.java{
+    width: 20%;
+    animation: java 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes qt-designer{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes R{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
