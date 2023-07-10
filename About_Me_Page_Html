@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3.sayfa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Hakkımda</title>
+</head>
+<body>
+    <div class="icons">
+        <a href="index.html">
+        <img src="https://cdn-icons-png.flaticon.com/512/8841/8841153.png" width="7%" height="7%" class="images">
+        </a>
+        <p>Anasayfa</p>
+       </div>
+    <div class="wrapper">
+        <div class="testimonial">
+           <article>
+            <h1>Hakkımda</h1>
+            <img src="C:\Users\90533\Desktop\resimler\WhatsApp Image 2022-05-29 at 13.28.16.jpeg">
+            <blockquote>
+                17 Şubat 2001'de İstanbul'da doğdum. İlkokul, ortaokul ve liseyi burada tamamladım.
+                Şu anda Gelişim Üniversitesi'nde Yönetim Bilişim Sistemleri Bölümü 4.sınıf öğrencisiyim.Üniversitemin 
+                ilk yıllarından beri python,html,css,sql başta olmak üzere birçok farklı programlarda kendimi geliştirmeye çalışıyorum.
+                Python ile veri analizi ve html,css ile de web sitesi tasarımı yapmaya çalışıyorum. Yaptığım projeleri görmek ve bana
+                ulaşmak için anasayfadaki iletişim kısmını inceleyebilirsiniz.
+            </blockquote>
+            <h5>Kerem Karayağız</h5>
+            
+            <a href="C:\Users\90533\Desktop\cv.pdf">
+            <button>Cv'mi görüntüle</button>
+        </a>
+           </article> 
+        </div>
+    </div>
+    
+</body>
+</html>
