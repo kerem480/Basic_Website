@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.sayfa.css">
+    <link rel="link" href="https://www.flaticon.com/free-icon/world-wide-web_72626?related_id=72626&origin=tag">
+    <title>Becerilerim</title>
+</head>
+<body>
+   <div class="icons">
+    <a href="index.html">
+    <img src="https://cdn-icons-png.flaticon.com/512/8841/8841153.png" width="7%" height="7%" class="images">
+    </a>
+    <p>Anasayfa</p>
+   </div>
+      <div class="skill">
+        <h1>Becerilerim</h1>
+        <li><h3>Html</h3>
+        <span class="bar"><span class="html"></span></span>
+        </li>
+        <li><h3>Css</h3>
+            <span class="bar"><span class="css"></span></span>
+        </li>
+        <li><h3>Qt Designer</h3>
+            <span class="bar"><span class="qt-designer"></span></span>
+        </li>
+        <li><h3>Python</h3>
+            <span class="bar"><span class="python"></span></span>
+        </li>
+        <li><h3>R</h3>
+            <span class="bar"><span class="R"></span></span>
+            </li>
+        <li><h3>Java</h3>
+            <span class="bar"><span class="java"></span></span>
+            </li>
+      </div>
+    
+    
+   
+    
+    
+    
+</body>
+</html>
