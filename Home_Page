@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="link" href="https://www.flaticon.com/free-icon/world-wide-web_72626?related_id=72626&origin=tag">
+    <title>Kerem Karayağız</title>
+
+    
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li class="logo"><img src="https://cdn-icons-png.flaticon.com/512/72/72626.png" width="90%" height="60%"></li>
+            <li><a href="#"><i class="fa fa-home"></i>&nbsp;  Anasayfa</a></li>
+            <li><a href="2.sayfa.html"><i class="fa fa-book"></i>&nbsp;  Becerilerim</a></li>
+            <li><a href="3.sayfa.html"><i class="fa fa-users"></i>&nbsp;  Hakkımda</a></li>
+            <li><a href="4.sayfa.html"><i class="fa fa-users"></i>&nbsp;  İletişim</a></li>
+        </ul>
+    </nav>
+    
+    <div class="wrapper">
+        
+        
+        <div class="section">
+            <div class="box-area">
+                <h1>Kerem Karayağız</h1>
+                <p>Freelancer</p>
+                
+                
+            </div>
+           
+            
+        </div>
+    </div>
