@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4.sayfa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icons/pin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>İletişim</title>
+</head>
+<body>
+    <div class="icons">
+        <a href="index.html">
+        <img src="https://cdn-icons-png.flaticon.com/512/8841/8841153.png" width="7%" height="7%" class="images">
+        </a>
+        <p>Anasayfa</p>
+       </div>
+    <div class="title"><h1>Bana alttaki adreslerden ulaşabilir ve projelerime bakabilirsiniz</h1></div>
+    <div class="social-menu">
+    
+        <ul>
+            <li><a href="https://www.linkedin.com/in/kerem-karaya%C4%9F%C4%B1z-95515b249/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://twitter.com/Kerem_Karayagiz"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://github.com/kerem480"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/karayagizkerem/"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        
+    </div>
+    <div class="adres">
+        <h2>✉ keremkarayagiz0@gmail.com</h2>
+        <div class="adres2"><h2>➢ İstanbul,Bakırköy,34140</h2></div>
+    </div>
+   
+
+
+    
+</body>
+</html>
