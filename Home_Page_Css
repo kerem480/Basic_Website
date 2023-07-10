@@ -1,0 +1,127 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:'montserrat';
+  background: url(https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.logo{
+  padding:35px;
+  height: 70px;
+  width: 70px;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  height:100%;
+  width:260px;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:#303030;
+}
+
+nav ul li{
+  list-style:none;
+}
+
+
+nav ul li a{
+  display:block;
+  font-family:'montserrat';
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:17px;
+  color:#fff;
+  position:relative;
+  padding:15px 0px 15px 25px;
+  transition:all 0.5s;
+}
+
+nav ul li a:before{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:100%;
+  background:#e3e9f7;
+  border-radius:40px 0 0 40px;
+  z-index:-1;
+  transition:all 1s;
+}
+nav ul li a:hover{
+  color:#2b2626;
+}
+nav ul li a:hover:before{
+  width:95%;
+}
+
+.wrapper {
+  margin-left:260px;
+  margin-top: -150px;
+  
+}
+.section{
+  display:grid;
+  place-items:center;
+  min-height:100vh;
+  text-align:center;
+}
+
+
+.box-area{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.box-area h1{
+  font-family: 'Unbounded', cursive;
+  font-size: 80px;
+  color:#5a3e3e;
+  background: 50% 100% / 50% 50% no-repeat
+  radial-gradient(ellipse at bottom, rgb(141, 128, 53), transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 80px;
+  font-family: "Source Sans Pro", sans-serif;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+  glow 2500ms linear infinite 2000ms;
+  text-shadow: #fff;
+  
+}  
+
+.box-area p{
+  font-size: 30px;
+  animation: glitch 1s linear infinite;
+  background: 50% 100% / 50% 50% no-repeat
+  radial-gradient(ellipse at bottom, rgb(201, 187, 110), transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-family: 'Unbounded', cursive;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+  glow 2500ms linear infinite 2000ms;
+  text-shadow: #fff;
+}
+@keyframes reveal {
+  80%{
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px rgb(0, 0, 0);
+  }
+}
